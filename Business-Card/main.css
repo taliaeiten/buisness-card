@@ -1,0 +1,67 @@
+.front-card{
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+    background-color:rgb(248, 231, 222);
+    margin-bottom: 70px;
+    background-image: url("assets/Front.png");
+    box-shadow: 5px 8px 20px 2px #49494994;
+    
+}
+.back-card{
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+    background-color:rgb(248, 231, 222);
+    box-shadow: 5px 8px 20px 2px #49494994;
+    
+    
+}
+.icon-container{
+    display:grid;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    grid-gap:70px;
+    padding-top: 280px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "a b c";
+    /* border: 8px solid blue; */
+  }
+
+  h1{
+      font-size: 60px;
+      position: relative;
+      top: 50px;
+      left: 50px;
+      font-family: 'Lobster', cursive;
+      color: rgb(196, 110, 99);
+
+  }
+
+  h2{
+      font-size: 25px;
+      color: rgb(196, 110, 99);
+      position: relative;
+      top: 15px;
+      left: 84px
+      
+  }
+
+  h3{
+      font-size: 20px;
+      color: rgb(196, 110, 99);
+      position: relative;
+      top: 400px;
+      left: 80px;
+  }
+
+  body {
+    background-color: rgba(243, 86, 13, 0.445);
+}
+  
+svg:hover{
+    fill:maroon
+}
